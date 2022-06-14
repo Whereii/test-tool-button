@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-background {
+    background-color: rgb(100, 100, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.second-background {
+background-color: blueviolet;
+width: 100vw;
+height: 100vh;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 80px;
+}
+
+.tool-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 10vw;
+    height: 10vh;
+    background-color: red;
+    border-radius: 100%;
+    font-size: 40px;
+}
+
+.tool-btn:hover {
+    background-color: rgb(255, 108, 108);
+}
+
+.divOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 10vw;
+    height: 10vh;
+    background-color: red;
+    border-radius: 100%;
+    font-size: 40px;
+    animation-name: btn-one;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+.divTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 10vw;
+    height: 10vh;
+    background-color: red;
+    border-radius: 100%;
+    font-size: 40px;
+    animation-name: btn-two;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+.divThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 10vw;
+    height: 10vh;
+    background-color: red;
+    border-radius: 100%;
+    font-size: 40px;
+    animation-name: btn-two;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+    animation-name: btn-three;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes btn-one {
+    from {
+        bottom: 5%;
+        right: 5%;
+    }
+    to {
+        bottom: 5%;
+        right: 17%;
+    }
+}
+
+@keyframes btn-two {
+    from {
+        bottom: 5%;
+        right: 5%;
+    }
+    to {
+        bottom: 17%;
+        right: 17%;
+    }
+}
+
+@keyframes btn-three {
+    from {
+        bottom: 5%;
+        right: 5%;
+    }
+    to {
+        right: 5%;
+        bottom: 17%;
+    }
+}
